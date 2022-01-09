@@ -1,0 +1,51 @@
+a{
+    font-size:20pk;
+    color: white;
+    text-decoration:none;
+    background-color:red;
+    padding: 14px 427px;
+    text-align:center;
+    display: inline-block;
+    width: 20%;
+}
+
+/*adjustment for pizza home button*/
+.home{
+    padding:10px 427px;
+    display:block;
+}
+/*style for menu buttons*/
+a:hover{
+    background-color:tomato;
+    
+}
+
+/*group styling for all headings*/
+.main, 
+.mhead,
+.phead,
+.pmhead{
+    color:white;
+    background:red;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+/*code for index photo*/
+.front{
+    height: auto;
+    width: 20%;
+}
+
+.menu{
+    list-style-type:none;
+    padding-left: 0%;
+    
+    
+}
+/*Code below represent styles for pizza image and mashed potatoe image*/
+.pfront,
+.mimg,
+.pmimg{
+    height:auto;
+    width:500px;
+}
